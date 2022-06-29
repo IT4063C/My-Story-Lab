@@ -1,22 +1,20 @@
-#!/usr/bin/env python
-# coding: utf-8
-
+# %% [markdown]
 # # My Story
+#
 
-# In[2]:
-
-
+# %%
 def printHelloWorld():
     print("Hello World")
+
 
 def add(a, b):
     return a + b
 
 
+# %% [markdown]
 # Make the above function print hello World
+#
 
-# In[3]:
-
-
+# %%
 printHelloWorld()
-
+add(1, 3)
