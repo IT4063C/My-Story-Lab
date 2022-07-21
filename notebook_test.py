@@ -15,6 +15,4 @@ def test_add(tb):
 
 
 def test_print(tb):
-    printHelloWorld = tb.get("printHelloWorld")
-    printHelloWorld()
-    assert tb.cell_output_text(3) == "Hello World"
+    assert tb.cell_output_text(4) == "Hello World"
